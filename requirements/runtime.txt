@@ -1,8 +1,7 @@
 av
-av==8.0.3; python_version < '3.7'
 facexlib
 lmdb
-mmcv-full>=1.3.13 # To support DCN on CPU
+mmcv-full==1.6.0
 numpy
 opencv-python<=4.5.4.60
 # MMCV depends opencv-python instead of headless, thus we install opencv-python
@@ -13,5 +12,3 @@ opencv-python<=4.5.4.60
 # But our test is negative.
 Pillow
 tensorboard
-torch
-torchvision
