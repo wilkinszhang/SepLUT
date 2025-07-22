@@ -1,5 +1,4 @@
 av
---no-deps facexlib
 lmdb
 mmcv-full==1.6.0
 numpy
