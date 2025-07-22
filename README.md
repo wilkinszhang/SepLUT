@@ -50,6 +50,7 @@ You can set up the MMEditing toolbox with conda and pip as follows:
 
 ```shell
 conda install -c pytorch pytorch=1.8.1 torchvision=0.9.1 cudatoolkit=10.2 -y
+python -m pip install --no-deps facexlib
 pip install -r requirements.txt
 pip install -v -e .
 ```
