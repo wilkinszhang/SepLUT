@@ -3,5 +3,3 @@ mmcv
 regex
 scikit-image
 titlecase
-torch
-torchvision
